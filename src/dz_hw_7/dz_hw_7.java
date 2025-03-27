@@ -69,7 +69,6 @@ public class dz_hw_7 {
         System.out.println("Сумма положительных элементов: " + sumOfPositiveElements(matrix));
         printSquare(3);
 
-        // Обнуление диагонали
         zeroDiagonal(matrix);
         System.out.println("Матрица после обнуления диагонали:");
         printMatrix(matrix);
