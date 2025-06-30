@@ -122,7 +122,7 @@ public class AllInOne {
         users[9] = new User("Зайцев", "Андрей", "Андреевич", 2010, "zaytsev@example.com");
 
         for (User user : users) {
-            if (user.getYearOfBirth() <= 1980) { // Текущий год минус 40
+            if (user.getYearOfBirth() <= 1981) { // Текущий год минус 40
                 user.printInfo();
             }
         }
